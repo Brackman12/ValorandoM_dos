@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio_Practico">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="83dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="16dp"
+        android:onClick="SiguienteSeis"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_seis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/giveaway"
+                android:paddingTop="30dp"
+                android:paddingBottom="20dp"
+                android:text="@string/ejercicio_practico"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="Después en la década de los 90's con las tarjetas gráficas mejoradas y los diferentes lenguajes de programación más pulidos, los diseños eran un poco más cuidadosos y era ms legible la información que se mostraba. A mitad de la década salió Windows 95, esta versión de Windows marcó un antes y un después en los diseños de sistemas de figura."
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

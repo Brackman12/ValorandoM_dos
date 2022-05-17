@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">ValorandoMe</string>
+    <string name="te_usuario">Usuario</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="te_contraseña">Contraseña</string>
+    <string name="b_login">Iniciar Sesion</string>
+    <string name="b_ayuda">Ayuda</string>
+    <string name="crear">Crear</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="tv_crear">¿No tienes cuenta? ¡Registrate Aqui!</string>
+    <string name="tv_usuario">Usuario</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_settings">Configuracion</string>
+    <string name="semana_uno">Semana Uno</string>
+    <string name="semana_dos">Semana Dos</string>
+    <string name="semana_tres">Semana Tres</string>
+    <string name="semana_cuatro">Semana Cuatro</string>
+    <string name="semana_cinco">Semana Cinco</string>
+    <string name="semana_seis">Semana Seis</string>
+    <string name="semana_siete">Semana Siete</string>
+    <string name="semana_ocho">Semana Ocho</string>
+    <string name="semana_nueve">Semana Nueve</string>
+    <string name="log_out">Cerrar sesion</string>
+    <string name="name_user">Nombre de Usuario</string>
+    <string name="quien_soy">¿Quien Soy?</string>
+    <string name="update">Actualizar</string>
+    <string name="delete">Eliminar</string>
+    <string name="que_habilidades">¿Que habilidades tienes?</string>
+    <string name="valor_uno">Amistad</string>
+    <string name="valor_dos">Paz</string>
+    <string name="valor_tres">Gratitud</string>
+    <string name="valor_cuatro">Justicia</string>
+    <string name="valor_cinco">Disciplina</string>
+    <string name="valor_seis">Lealtad</string>
+    <string name="valor_siete">Verdad</string>
+    <string name="valor_ocho">Solidaridad</string>
+    <string name="valor_nueve">Paciencia</string>
+    <string name="quien_eres">Desarrollado por valorandoMe ®</string>
+    <string name="texto">Nombre Y Apellido</string>
+    <string name="texto1">edad</string>
+    <string name="texto2">direccion</string>
+    <string name="texto3">dias</string>
+    <string name="lectura">Lectura</string>
+    <string name="examen">Examen</string>
+    <string name="video">Video</string>
+    <string name="video2">Video 2</string>
+    <string name="video3">Video 3</string>
+    <string name="ejercicio_practico">Ejercicio\nPractico</string>
+    <string name="atras">Atras</string>
+    <string name="comentario">El correo electronico solo es para recuperar la cuenta en caso de que se olvide</string>
+    <string name="menu_principal">Menu principal</string>
+    <string name="sobre_valorandome">Sobre valorandoMe</string>
+    <string name="sobre_ti">Sobre Ti</string>
+    <string name="eliminar">Eliminar Cuenta</string>
+    <string name="regresar_menu">Regresar Menu Principal</string>
+    <string name="sobre_nosotros">Sobre nosotros</string>
+    <string name="politicas">Politicas de\nPrivacidad</string>
+    <string name="politicas_uno">1. Qué información recopilamos</string>
+    <string name="politicas_dos">2. Privacidad de los niños</string>
+    <string name="politicas_tres">3. Cómo usar la información personal</string>
+    <string name="politicas_cuatro">4. Tiempo de conservación de la información</string>
+    <string name="politicas_cinco">5. Compromiso de confidencialidad</string>
+    <string name="parrafo_uno">valorandoMe es una Aplicación móvil que busca que los niños aprendan sobre los valores y sobre el uso de aplicaciones. No tiene fines de lucro. La falta de valores en la comunidad es el problema a resolver y se busca solucionarlo inculcando valores desde una edad temprana. Esta app está diseñada para niños entre 5 y 12.\n\n
+    La misión es “Fomentar los valores en los niños a través de una aplicación móvil dándole seguridad a los padres de familia”\n\n
+    La visión es “Ser la aplicación donde niños puedan aprender de forma correcta los valores, sin el riesgo de poder entrar a otras páginas no aptas para su edad.”
+    </string>
+    <string name="parrafo_dos">Recibimos solo la información que usted nos proporciona:\n\n
+    - Información que usted nos proporciona: Recopilamos directamente la información que ha proporcionado, como Nombre completo, correo electrónico, quien es, que valores tiene.\n\n
+    - Contador: Tenemos un contador de cuantas veces se realiza tal actividad o cuantas veces entra a la semana
+    </string>
+    <string name="parrafo_tres">De acuerdo con la Ley federal de protección de la privacidad en línea de los niños de 1998 (COPPA), no recopilamos a sabiendas información personal de ninguna persona menor de trece (13) años sin el consentimiento de los padres, por esto es que los padres deben registrarse en la aplicación. La información de los niños se utiliza para los siguientes propósitos:\n\n
+    - Para proporcionar el progreso de aprendizaje de los usuarios infantiles.\n\
+    La información recopilada de los usuarios nunca se utiliza para comercializar a los usuarios. Específicamente, la información personal recopilada de los niños usuarios nunca se utilizará para ofrecer publicidad dirigida, para crear perfiles de marketing de comportamiento o para ser compartida con terceros independientes con fines de marketing.
+    </string>
+    <string name="parrafo_cuatro">Usamos su información personal para los siguientes propósitos:\n\n
+    - Para tener un progreso visual sobre el aprendizaje del usuario\n
+    - Para poder dar un soporte mas dedicado en caso de necesitar ayuda\n
+    Solo eliminaremos su información personal inmediatamente después de que solicite la eliminación de la cuenta.
+    </string>
+    <string name="parrafo_cinco">Los datos personales del Cliente se conservarán hasta que recibamos una solicitud de cancelación o eliminación. Restante en todos los casos, la información personal del cliente se mantendrá confidencial en el servidor de los socios clave de valorandoMe.</string>
+    <string name="parrafo_seis">Información personal del cliente: la información personal del cliente en la aplicación está comprometida con la confidencialidad absoluta de acuerdo con la política de protección de información personal. La recopilación y el uso de la información de cada cliente se realiza únicamente con el consentimiento de ese cliente, a menos que la ley disponga lo contrario.\n\n
+- No utilice, no transfiera, proporcione o divulgue a ningún tercero sobre la información personal del cliente sin el consentimiento del cliente o a solicitud de la autoridad competente para servir a la investigación, juicio...\n\n
+- Si participamos en una fusión o se adquieren una parte o la totalidad de los activos, el cliente será notificado vía correo electrónico o a través de las noticias oficiales en el sitio web de la empresa sobre cualquier cambio en la propiedad o uso de su información personal, así como cualquier derecho usted tiene en relación con su información personal, a cualquier tercero con el consentimiento del cliente.\n\n
+- En caso de que el servidor de información sea atacado por un hacker que provoque la pérdida de datos personales del cliente, seremos responsables de notificar el incidente a las autoridades investigadoras para el manejo oportuno y notificar al cliente.
+</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">HOME</string>
+    <string name="profile_fragment">Perfil</string>
+    <string name="settings_fragment">Ajustes</string>
+    <string name="title_activity_semana">semana</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
