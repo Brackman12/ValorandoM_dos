@@ -37,6 +37,8 @@
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/fragment_settings.xml" value="0.22" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/menu/bottom_navigation.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.1965" />
+        <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/drawable/ic_baseline_check_relleno.xml" value="0.1815" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/drawable/shape_seis.xml" value="0.2115" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/drawable/shape_siete.xml" value="0.2115" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout-v26/activity_lecturas.xml" value="0.20416666666666666" />
@@ -46,7 +48,7 @@
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/activity_menu_principal.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/activity_politicas_privacidad.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/activity_semana.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/activity_semana.xml" value="0.33" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/activity_videos.xml" value="0.16032608695652173" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/crear_cuenta.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/maris/Downloads/valorandome-main/app/src/main/res/layout/fragment_home.xml" value="0.25" />

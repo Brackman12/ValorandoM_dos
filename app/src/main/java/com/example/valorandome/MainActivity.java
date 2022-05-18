@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         usuario.setHintTextColor(Color.RED);
                         password.setHintTextColor(Color.RED);
                     }else {
-                        String url = "http://192.168.1.70:8080/retrofit/";
+                        String url = "http://192.168.14.66:8080/retrofit/";
                         Retrofit retrofit = new Retrofit.Builder()
                                 .baseUrl(url)
                                 .addConverterFactory(GsonConverterFactory.create())
@@ -93,7 +93,8 @@ public class MainActivity extends AppCompatActivity {
                                     Intent intent = new Intent(MainActivity.this, Menu_Principal.class);
                                     startActivity(intent);
 
-                                    finish();                                } else {
+                                    finish();
+                                } else {
                                     Toast.makeText(getApplicationContext(), "Usuario y/o contraseña incorrectos", Toast.LENGTH_LONG).show();
                                     usuario_dos.setTextColor(Color.RED);
                                     password.setTextColor(Color.RED);
@@ -163,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 if (cont != 1){
-                    String url = "http://192.168.1.70:8080/retrofit/";
+                    String url = "http://192.168.14.66:8080/retrofit/";
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl(url)
                         .addConverterFactory(GsonConverterFactory.create())

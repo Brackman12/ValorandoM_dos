@@ -5,13 +5,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -22,7 +21,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.valorandome.databinding.ActivityMenuPrincipalBinding;
-import com.example.valorandome.databinding.FragmentProfileBinding;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,6 +32,7 @@ public class Menu_Principal extends AppCompatActivity {
     EditText nombre, edad, direccion, dia;
     Button buscar, agregar, editar, eliminar;
     RequestQueue requestQueue;
+    ImageButton uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +56,6 @@ public class Menu_Principal extends AppCompatActivity {
                 ejecutarServicio("127.0.0.1:8080/codigophp/insertar.php");
             }
         });*/
-        
 
 
         binding.bottomNavigationView.setOnItemSelectedListener( item -> {
@@ -219,6 +217,44 @@ public class Menu_Principal extends AppCompatActivity {
         };
     }
 */
+
+
+    public void ImagenUno(View view){
+        uno = (ImageButton) findViewById(R.id.check1);
+        uno.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenDos(View view){
+        dos = (ImageButton) findViewById(R.id.check2);
+        dos.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenTres(View view){
+        tres = (ImageButton) findViewById(R.id.check3);
+        tres.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenCuatro(View view){
+        cuatro = (ImageButton) findViewById(R.id.check4);
+        cuatro.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenCinco(View view){
+        cinco = (ImageButton) findViewById(R.id.check5);
+        cinco.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenSeis(View view){
+        seis = (ImageButton) findViewById(R.id.check6);
+        seis.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenSiete(View view){
+        siete = (ImageButton) findViewById(R.id.check7);
+        siete.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenOcho(View view){
+        ocho = (ImageButton) findViewById(R.id.check8);
+        ocho.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
+    public void ImagenNueve(View view){
+        nueve = (ImageButton) findViewById(R.id.check9);
+        nueve.setImageResource(R.drawable.ic_baseline_check_relleno);
+    }
 
 
 }
