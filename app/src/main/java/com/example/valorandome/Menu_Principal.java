@@ -256,5 +256,12 @@ public class Menu_Principal extends AppCompatActivity {
         nueve.setImageResource(R.drawable.ic_baseline_check_relleno);
     }
 
+    //Metodo para cambiar de activity
+    public void SiguienteDiecisiete(View view) {
+
+        Intent intent = new Intent(this, quienes_somos.class);
+        startActivity(intent);
+
+    }
 
 }

@@ -9,6 +9,8 @@
     <string name="crear_cuenta">Crear cuenta</string>
     <string name="tv_crear">¿No tienes cuenta? ¡Registrate Aqui!</string>
     <string name="tv_usuario">Usuario</string>
+    <string name="quienes_somos">¿Quienes somos?</string>
+    <string name="quienes_somos_dos">Somos un grupo de jóvenes que detecto un problema en la sociedad (los niños están creciendo con falta de valores) y decidimos crear una aplicación que les enseñe valores. Con ayuda del tutor los pequeños podrán aprender y desenvolverse de una mejor manera en su entorno</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_home">Home</string>
     <string name="title_perfil">Perfil</string>
@@ -27,7 +29,7 @@
     <string name="quien_soy">¿Quien Soy?</string>
     <string name="update">Actualizar</string>
     <string name="delete">Eliminar</string>
-    <string name="que_habilidades">¿Que habilidades tienes?</string>
+    <string name="que_habilidades">¿Que valores tienes?</string>
     <string name="valor_uno">Amistad</string>
     <string name="valor_dos">Paz</string>
     <string name="valor_tres">Gratitud</string>
@@ -86,6 +88,21 @@
 - Si participamos en una fusión o se adquieren una parte o la totalidad de los activos, el cliente será notificado vía correo electrónico o a través de las noticias oficiales en el sitio web de la empresa sobre cualquier cambio en la propiedad o uso de su información personal, así como cualquier derecho usted tiene en relación con su información personal, a cualquier tercero con el consentimiento del cliente.\n\n
 - En caso de que el servidor de información sea atacado por un hacker que provoque la pérdida de datos personales del cliente, seremos responsables de notificar el incidente a las autoridades investigadoras para el manejo oportuno y notificar al cliente.
 </string>
+    <string name="ayuda">
+        Crea tu cuenta mediante un registro.</string>
+    <string name="ayuda_dos">Para crear tu cuenta selecciona la opción de "registrarte aquí" (esta se encuentra en la parte inferior derecha) para registrarte necesitarás un nombre de usuario, un correo electrónico y una contraseña numérica, después de esto seleccionará la opción que dice crear
+    </string>
+    <string name="ayuda_tres">Inicio de sesión.</string>
+    <string name="ayuda_cuatro">¿Que es un inicio de sesión?
+        Un inicio de sesión es un conjunto de credenciales que se utilizan para autenticar a un usuario.
+
+        Para iniciar sesión necesitarás tu nombre de usuario y contraseña los cuales pondrás en los campos correspondientes y y el siguiente paso es presionar el botón de que dice "iniciar seción" una ves esto hecho podrás navegar por las interfaces de ValorandoMe.
+        ¡Ahora si, es hora de aprender!
+    </string>
+    <string name="ayuda_cinco">¿Para que sirve el inicio de sesión?</string>
+    <string name="ayuda_seis">¿Para que sirve el inicio de sesión?
+        El inicio de sesión sirve para tener un registro de usuarios y así poder guardar tu progreso
+    </string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

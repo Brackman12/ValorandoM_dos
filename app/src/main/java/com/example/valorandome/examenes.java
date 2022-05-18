@@ -47,7 +47,7 @@ public class examenes extends AppCompatActivity {
         once = findViewById(R.id.opcion11);
         doce = findViewById(R.id.opcion12);
 
-        String url = "http://192.168.14.66:8080/retrofit/";
+        String url = "http://192.168.43.79:8080/retrofit/";
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create())

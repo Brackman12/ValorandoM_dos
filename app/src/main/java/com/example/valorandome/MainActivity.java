@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         usuario.setHintTextColor(Color.RED);
                         password.setHintTextColor(Color.RED);
                     }else {
-                        String url = "http://192.168.14.66:8080/retrofit/";
+                        String url = "http://192.168.43.79:8080/retrofit/";
                         Retrofit retrofit = new Retrofit.Builder()
                                 .baseUrl(url)
                                 .addConverterFactory(GsonConverterFactory.create())
@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 if (cont != 1){
-                    String url = "http://192.168.14.66:8080/retrofit/";
+                    String url = "http://192.168.43.79:8080/retrofit/";
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl(url)
                         .addConverterFactory(GsonConverterFactory.create())

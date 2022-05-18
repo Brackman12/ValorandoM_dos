@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ValorandoMe"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".quienes_somos"
+            android:exported="false" />
+        <activity
             android:name=".Videos"
             android:exported="false" />
         <activity

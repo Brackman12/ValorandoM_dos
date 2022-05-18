@@ -40,7 +40,7 @@ public class Semanas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySemanaBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        String url = "http://192.168.14.66:8080/retrofit/";
+        String url = "http://192.168.43.79:8080/retrofit/";
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create())

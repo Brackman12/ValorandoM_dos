@@ -7,11 +7,11 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\maris\.android\avd\Poco_X3pro_Android_8_API_26.avd" />
+            <value value="C:\Users\maris\.android\avd\Tercer_dispositivo_android_10.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-05-18T14:34:52.792068100Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-05-18T19:37:03.838951400Z" />
   </component>
 </project>

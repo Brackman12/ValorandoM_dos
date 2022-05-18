@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/giveaway"
         android:paddingTop="30dp"
+        android:paddingBottom="10dp"
         android:text="@string/b_ayuda"
         android:textAlignment="center"
         android:textSize="30sp"
@@ -37,13 +38,57 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/parrafo_principal2"
+                android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="15dp"
-                android:scrollHorizontally="false"
-                android:text="@string/parrafo_uno"
-                android:textAlignment="textStart"
+                android:text="@string/ayuda"
+                android:textColor="#3F51B5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/ayuda_dos"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_tres"
+                android:textColor="#3F51B5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:text="@string/ayuda_cuatro"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_cinco"
+                android:textColor="#3F51B5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:text="@string/ayuda_seis"
                 android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>
